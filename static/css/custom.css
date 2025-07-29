@@ -1,0 +1,6 @@
+.primary{
+color: var(--color-cyan-500);
+}
+.dark{
+    color: var(--color-slate-900);
+}

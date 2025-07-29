@@ -5,9 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'css/output.css'%}">
+    <link rel="stylesheet" href="{% static 'css/custom.css'%}">
     <title>Portofolio</title>
 </head>
 <body>
-    <h1 class="text-2xl text-blue-400" >Legi setiawan</h1>
+    <section id="home" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold primary md:text-xl">Salam Kenal 😎👌, Saya <span class="block font-bold text-slate-900 text-4xl mt-1 mb-1 lg:text-5xl "> Legi Setiawan</span></h1>
+                    <h2 class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl  ">IT Support | <span class="text-blue-200"> Network engineer </span></h2>
+                    <p class="font-medium text-slate-400 mb-10 leading-relaxed">Saya Lulusan S1 Teknik Informatika, menyukai bidang jaringan dan program.</p>
+                    <a class="text-base font-semibold text-white bg-purple-950 py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out " href="#">Hubungi Saya</a>
+                  
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:mt-9 lg:right-0">
+                        <img  src="static/img/fhoto.png" alt="fhoto" class="max-w-full mx-auto">
+                        <span class="absolute -bottom-0 -z-10 left-1/2 -translate-10 md:scale-125"><svg width="300" height="300" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="oklch(71.5% 0.143 215.221)" d="M19.7,15C9.1,29.7,-27.2,33.2,-34.8,20.3C-42.3,7.4,-21.2,-21.9,-3,-23.7C15.1,-25.4,30.2,0.4,19.7,15Z" transform="translate(100 100) scale(1.3)" />
+                        </svg></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
